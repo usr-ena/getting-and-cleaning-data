@@ -30,20 +30,20 @@ tidy_data.txt
 
 Variables
 
-xTest - Read X_test.txt as a data table and assign to a variable called xTest
-yTest - Read y_test.txt as a data table and assign to a variable called yTest
-subjectTest - Read subject_test.txt as a data table and assign to a variable called subjectTest
-features - Read features.txt as a data table and assiggn to a variable called features
-activityLbl - Read activity_labels.txt as a data table and assign to a varibale called activityLbl
-logicalMatchVector - # Create a logical vector matching the mean and standard deviation for each measurement from features variable.
-testData - Combine by column subjectTest, yTest, and xTest
-xTrain - Read X_train.txt as a data table and assign to a variable called xTrain
-yTrain - Read y_train.txt as a data table and assign to a variable called yTrain
-subjectTrain - Read subject_train.txt as a data table and assign to a variable called subjectTrain
-trainData - Combine by column subjectTrain, yTrain, and xTrain
-allData - Combine test and train data by row
-reshapedData - Reshape allData so the measurements are in separate columns and ordered by Subject, ActivityId, and ActivityDescription
-tidyData - Data that is going to be saved in a file called tidy_data.txt
+- xTest:  Read X_test.txt as a data table and assign to a variable called xTest
+- yTest:  Read y_test.txt as a data table and assign to a variable called yTest
+- subjectTest:  Read subject_test.txt as a data table and assign to a variable called subjectTest
+- features:  Read features.txt as a data table and assiggn to a variable called features
+- activityLbl:  Read activity_labels.txt as a data table and assign to a varibale called activityLbl
+- logicalMatchVector: Create a logical vector matching the mean and standard deviation for each measurement from features variable.
+- testData:  Combine by column subjectTest, yTest, and xTest
+- xTrain:  Read X_train.txt as a data table and assign to a variable called xTrain
+- yTrain:  Read y_train.txt as a data table and assign to a variable called yTrain
+- subjectTrain:  Read subject_train.txt as a data table and assign to a variable called subjectTrain
+- trainData:  Combine by column subjectTrain, yTrain, and xTrain
+- allData:  Combine test and train data by row
+- reshapedData:  Reshape allData so the measurements are in separate columns and ordered by Subject, ActivityId, and ActivityDescription
+- tidyData:  Data that is going to be saved in a file called tidy_data.txt
 
 
 
